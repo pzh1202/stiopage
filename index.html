@@ -24,7 +24,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>STIO: A Tightly-coupled Regression and Optimization Framework for Human
+    Body and Anatomical Skeleton Prediction</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -174,30 +175,39 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/img1.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+            An overview of the entire method.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/img2.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          An overview of the main components. (a) presented the skeleton shapes through muti-step joint optimazation. (c) shows
+          the process of the muti-step joint optimazation. The paramater will be optimazation simultaneously to control the posture of the
+          skeleton shapes. 𝛽 will be control to fit topological cluster. The topology cluster of the entire skeleton will be topology optimized by
+          the corresponding control points. (b) presented that during the training process of our model, for the same sample after multiple
+          epoch training processes, mesh tokens at different times t will supervise the model, allowing the model to tend to the final orientation
+          result.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/img4.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          It shows that the loss of OSF actually acts on the skeleton to adapt the external skin to meet the anatomical constraints. The
+          green arrows show the bone structure with optimization. Each color represents the loss in different areas, and the length shows the
+          size of the loss. The picture in the middle shows the input external skin
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <img src="static/images/img3.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Reconstruction errors on 3DPW testing set. Without using 3DPW training set, compared with the related models trained
+        on the 3DPW training set, our model still achieved good results benefiting from the contribution of internal skeletal features. Bold
+        indicates the maximum value, followed by a single underscore and
       </h2>
     </div>
   </div>
@@ -220,7 +230,7 @@
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/watch?reload=9&v=su8g0tAFi0k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -238,25 +248,25 @@
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
+            
+            <source src="static/videos/kongfu.mp4"
             type="video/mp4">
           </video>
         </div>
-        <div class="item item-video2">
+        <!-- <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+            
             <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
-        </div>
-        <div class="item item-video3">
+        </div> -->
+        <!-- <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
+            
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
